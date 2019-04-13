@@ -10,4 +10,4 @@ Eğer yabancı kaynakları herkesin faydalanması için Türkçe kaynaklara çev
 
 ## Devam Eden Çevriler
 
-- Çevirisi Yapılan Kaynağın Başlığı - Yazar - Varsa URL
+- [JavaScript Rehberi](https://github.com/selmansamet/ceviriler/tree/master/javascript-rehberi-mozilla)
