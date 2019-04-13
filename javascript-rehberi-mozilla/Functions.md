@@ -2,13 +2,13 @@
 
 Foksiyonlar, JavaScript'in en temel yapıtaşlarından biridir. Her bir fonksiyon, bir JavaScript işlemidir---herhangi bir görevi yerine getiren  veya değer hesaplayan bir ifade kümesini içerirler. Bir fonksiyonu kullanmak için, fonksiyonu çağıracağınız kısmın faaliyet gösterdiği alanda fonksiyonu tanımlıyor olmanız gerekmektedir.
 
-Daha fazla bilgi için [JavaScript fonksiyonları ile ilgili buradaki detaylı kaynağı](/en-US/docs/Web/JavaScript/Reference/Functions) inceleyebilirsiniz.
+Daha fazla bilgi için [JavaScript fonksiyonları ile ilgili buradaki detaylı kaynağı](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions) inceleyebilirsiniz.
 
 ## Fonksiyonların tanımlanması
 
 ### Fonksiyon tanımlamaları
 
-Bir **fonksiyon tanımı** (**fonksiyon betimlemesi**, veya **fonksiyon ifadesi** de denir) [`function`](/en-US/docs/Web/JavaScript/Reference/Statements/function "function") anahtar kelimesinden sonra aşağıdaki kısımları içerir:
+Bir **fonksiyon tanımı** (**fonksiyon betimlemesi**, veya **fonksiyon ifadesi** de denir) [`function`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function "function") anahtar kelimesinden sonra aşağıdaki kısımları içerir:
 
 * Fonksiyonun adı.
 * Fonksiyonun aldığı parametreler (parantezler ile çevrili ve virgüller ile birbirinden ayrılmış olmalıdırlar).
@@ -21,7 +21,7 @@ Bir **fonksiyon tanımı** (**fonksiyon betimlemesi**, veya **fonksiyon ifadesi*
     }  
     
 
-`karesiniAl` fonksiyonu, `sayı` isminde tek bir parametre içerir. Tek bir ifade içeren fonksiyonda, `sayı` parametresinin kendisi ile çarpılıp geri döndürülmesi işlemi yapılmıştır. [`return`](/en-US/docs/Web/JavaScript/Reference/Statements/return "return") ifadesi, fonksiyon tarafından döndürülen değeri belirler.
+`karesiniAl` fonksiyonu, `sayı` isminde tek bir parametre içerir. Tek bir ifade içeren fonksiyonda, `sayı` parametresinin kendisi ile çarpılıp geri döndürülmesi işlemi yapılmıştır. [`return`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return "return") ifadesi, fonksiyon tarafından döndürülen değeri belirler.
     
     return sayı * sayı;  
     
@@ -117,7 +117,7 @@ Bir fonksiyonun alanı, bildirilen işlevdir, veya tüm program üst seviyede bi
     }  
     
 
-Bir fonksiyonun argümanları karakter dizileri ve sayılarla sınırlı değildir. Tüm nesneleri bir fonksiyona aktarabilirsiniz. `show_props()` fonksiyonu ([Working with objects](/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Objects_and_Properties "https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Working_with_Objects#Objects_and_Properties") bölümünde tanımlanmıştır.) nesneyi argüman olarak alan bir fonksiyon örneğidir.
+Bir fonksiyonun argümanları karakter dizileri ve sayılarla sınırlı değildir. Tüm nesneleri bir fonksiyona aktarabilirsiniz. `show_props()` fonksiyonu ([Working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Objects_and_Properties "https://developer.mozilla.orghttps://developer.mozilla.org/en-US/docs/JavaScript/Guide/Working_with_Objects#Objects_and_Properties") bölümünde tanımlanmıştır.) nesneyi argüman olarak alan bir fonksiyon örneğidir.
 
 Bir fonksiyon kendini çağırabilir. Örneğin, burada faktöriyelleri yinelemeli olarak hesaplayan bir fonksiyon var.
     
@@ -179,7 +179,7 @@ Bir fonksiyon kendisine başvurabilir ve kendisini arayabilir. Bir işlevin kend
 
   
 1. fonksiyonun adı
-2. `[arguments.callee](/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee)`
+2. `[arguments.callee](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee)`
 3. fonksiyona başvuran bir kapsam içi değişken 
 
 Örneğin, aşağıdaki işlev tanımını göz önünde bulundurun:
@@ -216,7 +216,7 @@ Kendisini çağıran fonksiyona özyinelemeli fonksiyon denir. Bazı açılardan
     loop(0);  
     
 
-Ancak, bazı algoritmalar basit yinelemeli döngüler olamaz. Örneğin, bir ağaç yapısının tüm düğümlerinin (örneğin [DOM](/en-US/docs/DOM)) alınması özyineleme kullanılarak daha kolay yapılır:
+Ancak, bazı algoritmalar basit yinelemeli döngüler olamaz. Örneğin, bir ağaç yapısının tüm düğümlerinin (örneğin [DOM](https://developer.mozilla.org/en-US/docs/DOM)) alınması özyineleme kullanılarak daha kolay yapılır:
     
     function walkTree(node) {  
       if (node == null) //   
@@ -484,11 +484,11 @@ With default parameters, the check in the function body is no longer necessary. 
       
     multiply(5); // 5
 
-Fore more details, see [default parameters](/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters) in the reference.
+Fore more details, see [default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters) in the reference.
 
 ### Rest parameters
 
-The [rest parameter](/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) syntax allows us to represent an indefinite number of arguments as an array. In the example, we use the rest parameters to collect arguments from the second one to the end. We then multiply them by the first one. This example is using an arrow function, which is introduced in the next section.
+The [rest parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) syntax allows us to represent an indefinite number of arguments as an array. In the example, we use the rest parameters to collect arguments from the second one to the end. We then multiply them by the first one. This example is using an arrow function, which is introduced in the next section.
     
     function multiply(multiplier, ...theArgs) {  
       return theArgs.map(x => multiplier * x);  
@@ -499,7 +499,7 @@ The [rest parameter](/en-US/docs/Web/JavaScript/Reference/Functions/rest_paramet
 
 ## Arrow functions
 
-An [arrow function expression](/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) (also known as **fat arrow function**) has a shorter syntax compared to function expressions and lexically binds the `this` value. Arrow functions are always anonymous. See also this hacks.mozilla.org blog post: "[ES6 In Depth: Arrow functions](https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/)".
+An [arrow function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) (also known as **fat arrow function**) has a shorter syntax compared to function expressions and lexically binds the `this` value. Arrow functions are always anonymous. See also this hacks.mozilla.org blog post: "[ES6 In Depth: Arrow functions](https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/)".
 
 Two factors influenced the introduction of arrow functions: shorter functions and lexical `this`.
 
@@ -525,7 +525,7 @@ In some functional patterns, shorter functions are welcome. Compare:
 
 ### Lexical `this`
 
-Until arrow functions, every new function defined its own [this](/en-US/docs/Web/JavaScript/Reference/Operators/this) value (a new object in case of a constructor, undefined in strict mode function calls, the context object if the function is called as an "object method", etc.). This proved to be annoying with an object-oriented style of programming.
+Until arrow functions, every new function defined its own [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) value (a new object in case of a constructor, undefined in strict mode function calls, the context object if the function is called as an "object method", etc.). This proved to be annoying with an object-oriented style of programming.
     
     function Person() {  
       // The Person() constructor defines `this` as itself.  
@@ -555,7 +555,7 @@ In ECMAScript 3/5, this issue was fixed by assigning the value in `this` to a va
       }, 1000);  
     }
 
-Alternatively, a [bound function](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) could be created so that the proper `this` value would be passed to the `growUp()` function.
+Alternatively, a [bound function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) could be created so that the proper `this` value would be passed to the `growUp()` function.
 
 Arrow functions capture the `this` value of the enclosing context, so the following code works as expected.
     
@@ -587,7 +587,7 @@ JavaScript has several top-level, built-in functions:
 
 **{{jsxref("Global\_Objects/isNaN", "isNaN()")}}**
 > 
-> The `**isNaN()**` function determines whether a value is {{jsxref("Global\_Objects/NaN", "NaN")}} or not. Note: coercion inside the `isNaN` function has [interesting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN#Description) rules; you may alternatively want to use {{jsxref("Number.isNaN()")}}, as defined in ECMAScript 6, or you can use `[typeof](/en-US/docs/Web/JavaScript/Reference/Operators/typeof)` to determine if the value is Not-A-Number.
+> The `**isNaN()**` function determines whether a value is {{jsxref("Global\_Objects/NaN", "NaN")}} or not. Note: coercion inside the `isNaN` function has [interesting](https://developer.mozilla.orghttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN#Description) rules; you may alternatively want to use {{jsxref("Number.isNaN()")}}, as defined in ECMAScript 6, or you can use `[typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)` to determine if the value is Not-A-Number.
 
 **{{jsxref("Global\_Objects/parseFloat", "parseFloat()")}}**
 > 

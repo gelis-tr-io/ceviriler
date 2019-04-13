@@ -2,7 +2,7 @@
 
 Bu bölüm eşitlik, kıyaslama, aritmetik, mantık, string, ternary ve daha fazlasını içeren JavaScript ifadelerini ve operatörlerini içerir.
 
-Operatör ve ifadelerin detaylı listesi için [referans](/en-US/docs/Web/JavaScript/Reference/Operators).
+Operatör ve ifadelerin detaylı listesi için [referans](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators).
 
 ## Operatörler
 
@@ -37,7 +37,7 @@ For example, `x++` or `++x`.
 
 ### Assignment operators
 
-An [assignment operator](/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators) assigns a value to its left operand based on the value of its right operand. The simple assignment operator is equal (`=`), which assigns the value of its right operand to its left operand. That is, `x = y` assigns the value of `y` to `x`.
+An [assignment operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators) assigns a value to its left operand based on the value of its right operand. The simple assignment operator is equal (`=`), which assigns the value of its right operand to its left operand. That is, `x = y` assigns the value of `y` to `x`.
 
 There are also compound assignment operators that are shorthand for the operations listed in the following table:
 
@@ -61,7 +61,7 @@ There are also compound assignment operators that are shorthand for the operatio
 
 #### Destructuring
 
-For more complex assignments, the [destructuring assignment](/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) syntax is a JavaScript expression that makes it possible to extract data from arrays or objects using a syntax that mirrors the construction of array and object literals.
+For more complex assignments, the [destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) syntax is a JavaScript expression that makes it possible to extract data from arrays or objects using a syntax that mirrors the construction of array and object literals.
     
     var foo = ["one", "two", "three"];  
       
@@ -75,7 +75,7 @@ For more complex assignments, the [destructuring assignment](/en-US/docs/Web/Jav
 
 ### Comparison operators
 
-A [comparison operator](/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators) compares its operands and returns a logical value based on whether the comparison is true. The operands can be numerical, string, logical, or object values. Strings are compared based on standard lexicographical ordering, using Unicode values. In most cases, if the two operands are not of the same type, JavaScript attempts to convert them to an appropriate type for the comparison. This behavior generally results in comparing the operands numerically. The sole exceptions to type conversion within comparisons involve the `===` and `!==` operators, which perform strict equality and inequality comparisons. These operators do not attempt to convert the operands to compatible types before checking equality. The following table describes the comparison operators in terms of this sample code:
+A [comparison operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators) compares its operands and returns a logical value based on whether the comparison is true. The operands can be numerical, string, logical, or object values. Strings are compared based on standard lexicographical ordering, using Unicode values. In most cases, if the two operands are not of the same type, JavaScript attempts to convert them to an appropriate type for the comparison. This behavior generally results in comparing the operands numerically. The sole exceptions to type conversion within comparisons involve the `===` and `!==` operators, which perform strict equality and inequality comparisons. These operators do not attempt to convert the operands to compatible types before checking equality. The following table describes the comparison operators in terms of this sample code:
     
     var var1 = 3, var2 = 4;  
     
@@ -93,11 +93,11 @@ A [comparison operator](/en-US/docs/Web/JavaScript/Reference/Operators/Compariso
 | Less than or equal (<=) |	Returns true if the left operand is less than or equal to the right operand. | `var1 <= var2` <br> `var2 <= 5`
 
 
-**Note: **(**=\>**) is not an operator, but the notation for [Arrow functions](/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions).
+**Note: **(**=\>**) is not an operator, but the notation for [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions).
 
 ### Arithmetic operators
 
-An[arithmetic operator](/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators) takes numerical values (either literals or variables) as their operands and returns a single numerical value. The standard arithmetic operators are addition (`+`), subtraction (`-`), multiplication (`*`), and division (`/`). These operators work as they do in most other programming languages when used with floating point numbers (in particular, note that division by zero produces {{jsxref("Infinity")}}). For example:
+An[arithmetic operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators) takes numerical values (either literals or variables) as their operands and returns a single numerical value. The standard arithmetic operators are addition (`+`), subtraction (`-`), multiplication (`*`), and division (`/`). These operators work as they do in most other programming languages when used with floating point numbers (in particular, note that division by zero produces {{jsxref("Infinity")}}). For example:
     
     1 / 2; // 0.5  
     1 / 2 == 1.0 / 2.0; // this is true  
@@ -119,7 +119,7 @@ In addition to the standard arithmetic operations (+, -, \* /), JavaScript provi
 
 ### Bitwise operators
 
-A [bitwise operator](/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators) treats their operands as a set of 32 bits (zeros and ones), rather than as decimal, hexadecimal, or octal numbers. For example, the decimal number nine has a binary representation of 1001\. Bitwise operators perform their operations on such binary representations, but they return standard JavaScript numerical values.
+A [bitwise operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators) treats their operands as a set of 32 bits (zeros and ones), rather than as decimal, hexadecimal, or octal numbers. For example, the decimal number nine has a binary representation of 1001\. Bitwise operators perform their operations on such binary representations, but they return standard JavaScript numerical values.
 
 The following table summarizes JavaScript's bitwise operators.
 
@@ -182,7 +182,7 @@ The shift operators are listed in the following table.
 
 ### Logical operators
 
-[Logical operators](/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators) are typically used with Boolean (logical) values; when they are, they return a Boolean value. However, the `&&` and `||` operators actually return the value of one of the specified operands, so if these operators are used with non-Boolean values, they may return a non-Boolean value. The logical operators are described in the following table.
+[Logical operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators) are typically used with Boolean (logical) values; when they are, they return a Boolean value. However, the `&&` and `||` operators actually return the value of one of the specified operands, so if these operators are used with non-Boolean values, they may return a non-Boolean value. The logical operators are described in the following table.
 
 **Logical operators**
 |Operator|Usage|Description|
@@ -249,7 +249,7 @@ For example,
 
 ### Conditional (ternary) operator
 
-The [conditional operator](/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) is the only JavaScript operator that takes three operands. The operator can have one of two values based on a condition. The syntax is:
+The [conditional operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) is the only JavaScript operator that takes three operands. The operator can have one of two values based on a condition. The syntax is:
     
     *condition* ? *val1* : *val2* 
 
@@ -264,7 +264,7 @@ This statement assigns the value "adult" to the variable `status` if `age` is ei
 
 ### Comma operator
 
-The [comma operator](/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator) (`,`) simply evaluates both of its operands and returns the value of the last operand. This operator is primarily used inside a `for` loop, to allow multiple variables to be updated each time through the loop.
+The [comma operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator) (`,`) simply evaluates both of its operands and returns the value of the last operand. This operator is primarily used inside a `for` loop, to allow multiple variables to be updated each time through the loop.
 
 For example, if `a` is a 2-dimensional array with 10 elements on a side, the following code uses the comma operator to update two variables at once. The code prints the values of the diagonal elements in the array:
     
@@ -278,7 +278,7 @@ A unary operation is an operation with only one operand.
 
 #### `delete`
 
-The `[delete](/en-US/docs/Web/JavaScript/Reference/Operators/delete)` operator deletes an object, an object's property, or an element at a specified index in an array. The syntax is:
+The `[delete](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete)` operator deletes an object, an object's property, or an element at a specified index in an array. The syntax is:
     
     delete objectName;  
     delete objectName.property;  
@@ -288,7 +288,7 @@ The `[delete](/en-US/docs/Web/JavaScript/Reference/Operators/delete)` operator d
 
 where `objectName` is the name of an object, `property` is an existing property, and `index` is an integer representing the location of an element in an array.
 
-The fourth form is legal only within a `[with](/en-US/docs/Web/JavaScript/Reference/Statements/with)` statement, to delete a property from an object.
+The fourth form is legal only within a `[with](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/with)` statement, to delete a property from an object.
 
 You can use the `delete` operator to delete variables declared implicitly but not those declared with the `var` statement.
 
@@ -329,7 +329,7 @@ If you want an array element to exist but have an undefined value, use the `unde
 
 #### `typeof`
 
-The [`typeof` operator](/en-US/docs/Web/JavaScript/Reference/Operators/typeof) is used in either of the following ways:
+The [`typeof` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof) is used in either of the following ways:
     
     typeof operand  
     typeof (operand)  
@@ -392,7 +392,7 @@ For predefined objects, the `typeof` operator returns results as follows:
 
 #### `void`
 
-The [`void` operator](/en-US/docs/Web/JavaScript/Reference/Operators/void) is used in either of the following ways:
+The [`void` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void) is used in either of the following ways:
     
     void (expression)  
     void expression  
@@ -418,7 +418,7 @@ A relational operator compares its operands and returns a `Boolean` value based 
 
 #### `in`
 
-The [`in` operator](/en-US/docs/Web/JavaScript/Reference/Operators/in) returns true if the specified property is in the specified object. The syntax is:
+The [`in` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in) returns true if the specified property is in the specified object. The syntax is:
     
     propNameOrNumber in objectName  
     
@@ -449,7 +449,7 @@ The following examples show some uses of the `in` operator.
 
 #### `instanceof`
 
-The [`instanceof` operator](/en-US/docs/Web/JavaScript/Reference/Operators/instanceof) returns true if the specified object is of the specified object type. The syntax is:
+The [`instanceof` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof) returns true if the specified object is of the specified object type. The syntax is:
     
     objectName instanceof objectType  
     
@@ -492,7 +492,7 @@ Operator precedence
 |comma|`,`|
 
 
-A more detailed version of this table, complete with links to additional details about each operator, may be found in [JavaScript Reference](/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table).
+A more detailed version of this table, complete with links to additional details about each operator, may be found in [JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table).
 
 ## Expressions
 
@@ -518,7 +518,7 @@ Basic keywords and general expressions in JavaScript.
 
 #### `this`
 
-Use the [`this` keyword](/en-US/docs/Web/JavaScript/Reference/Operators/this) to refer to the current object. In general, `this` refers to the calling object in a method. Use `this` either with the dot or the bracket notation:
+Use the [`this` keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) to refer to the current object. In general, `this` refers to the calling object in a method. Use `this` either with the dot or the bracket notation:
     
     this["propertyName"]  
     this.propertyName  
@@ -586,14 +586,14 @@ Left values are the destination of an assignment.
 
 #### `new`
 
-You can use the [`new` operator](/en-US/docs/Web/JavaScript/Reference/Operators/new) to create an instance of a user-defined object type or of one of the built-in object types. Use `new` as follows:
+You can use the [`new` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new) to create an instance of a user-defined object type or of one of the built-in object types. Use `new` as follows:
     
     var objectName = new objectType([param1, param2, ..., paramN]);  
     
 
 #### super
 
-The [super keyword](/en-US/docs/Web/JavaScript/Reference/Operators/super) is used to call functions on an object's parent. It is useful with [classes](/en-US/docs/Web/JavaScript/Reference/Classes) to call the parent constructor, for example.
+The [super keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super) is used to call functions on an object's parent. It is useful with [classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) to call the parent constructor, for example.
     
     super([arguments]); // calls the parent constructor.  
     super.functionOnParent([arguments]);  
@@ -601,7 +601,7 @@ The [super keyword](/en-US/docs/Web/JavaScript/Reference/Operators/super) is use
 
 #### Spread operator
 
-The [spread operator](/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator) allows an expression to be expanded in places where multiple arguments (for function calls) or multiple elements (for array literals) are expected.
+The [spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator) allows an expression to be expanded in places where multiple arguments (for function calls) or multiple elements (for array literals) are expected.
 
 **Example:** Today if you have an array and want to create a new array with the existing one being part of it, the array literal syntax is no longer sufficient and you have to fall back to imperative code, using a combination of `push`, `splice`, `concat`, etc. With spread syntax this becomes much more succinct:
     
