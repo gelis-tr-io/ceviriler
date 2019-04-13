@@ -20,3 +20,5 @@ Bir kısmı tamamlanmış, çevrilmeyi bekleyen bölümler var.
 - [ ] [Bit seviyesinde operatörler](Expressions_and_Operators.md#bitwise-operators)
 - [ ] [Mantıksal operatörler](Expressions_and_Operators.md#logical-operators)
 - [ ] [Durumsal (üçlü) operatör](Expressions_and_Operators.md#conditional-ternary-operator)
+
+*Not: Diğer başlıklar eklenecektir.*
