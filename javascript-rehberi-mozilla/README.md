@@ -2,9 +2,8 @@ Bu dizin altında, Mozilla'nın başlangıç seviyesindeki bir çok konuyu ele a
 
 ## Başlıklar:
 
-Bir kısmı tamamlanmış, çevrilmeyi bekleyen bölümler var.
-
 ### Fonksiyonlar
+
 - [x] [Fonksiyon tanımlama](Functions.md#fonksiyontanımlamaları)
 - [x] [Fonksiyon çağırma](Functions.md#fonksiyonları-çağırma)
 - [ ] [Fonksiyonun uzayı](Functions.md#fonksiyon-kapsamı)
