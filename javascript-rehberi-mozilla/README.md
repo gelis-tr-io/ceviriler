@@ -2,10 +2,11 @@ Bu dizin altında, Mozilla'nın başlangıç seviyesindeki bir çok konuyu ele a
 
 ## Başlıklar:
 
+Bir kısmı tamamlanmış, çevrilmeyi bekleyen bölümler var.
+
 ### Fonksiyonlar
-- [ ] [Fonksiyon tanımlama](Functions.md#fonksiyontanımlamaları)
-    > Bir kısmı tamamlanmış, çevrilmeyi bekleyen bölümler var.
-- [ ] [Fonksiyon çağırma](Functions.md#fonksiyonları-çağırma)
+- [x] [Fonksiyon tanımlama](Functions.md#fonksiyontanımlamaları)
+- [x] [Fonksiyon çağırma](Functions.md#fonksiyonları-çağırma)
 - [ ] [Fonksiyonun uzayı](Functions.md#fonksiyon-kapsamı)
 - [ ] [Değişken gizleme (Closures)](Functions.md#closures)
 - [ ] [Argümanlar ve parametreler](Functions.md#using-the-arguments-object)
