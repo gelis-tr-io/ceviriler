@@ -1,6 +1,6 @@
 # CAP Teoremi Nedir?
 
-CAP teoremi özellikle dağıtık (distributed) sistemlerle uğraşanların aşina olduğu bir terimdir. CAP teoremi, dağıtık bir sistemin aynı anda tutarlılık (consistency), ulaşılabilirlik (availability) ve bölünebilme toleransı (partition tolerance) koşullarına aynı anda sahip olamayacağını söyler. Yani bunlardan sadece ikisini tercih etmek durumundasınız. Teorem, ilk olarak 1998 yılında California üniversitesinde bilgisayar bilimcisi [Eric Brewer](https://en.wikipedia.org/wiki/Eric_Brewer_(scientist)) tarafından ortaya atılmıştır. Bu nedenler aynı zamanda Brewer teoremi olarak da bilinir.
+CAP teoremi özellikle dağıtık (distributed) sistemlerle uğraşanların aşina olduğu bir terimdir. Teorem bu dağıtık sistemlerde bir üst limit belirleyicidir. Diğer pek çok başlangıç seviyesi makale gibi CAP teoremini de gerçek dünya koşullarıyla kıyaslayarak anlamaya çalışalım.
 
 ![Cap Teoremi](cap_theorem.png)
 
