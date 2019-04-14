@@ -2,8 +2,6 @@
 
 CAP teoremi özellikle dağıtık (distributed) sistemlerle uğraşanların aşina olduğu bir terimdir. Teorem bu dağıtık sistemlerde bir üst limit belirleyicidir. Diğer pek çok başlangıç seviyesi makale gibi CAP teoremini de gerçek dünya koşullarıyla kıyaslayarak anlamaya çalışalım.
 
-![Cap Teoremi](cap_theorem.png)
-
 ## Bölüm 1. “Remembrance Inc”, yeni girişiminiz
 
 Dün akşam eşiniz sizin onun doğum gününü hatırlamanız ve ona hediye almanızı takdirle karşılarken aklınızda garip bir fikir belirir. İnsanlar birşeyleri hatırlamakta oldukça başarısızlar. Ve siz de bu konuda çok iyisiniz. O halde neden bu yeteneğinize uygun bir girişim başlatmayasınız? Üzerinde düşündükçe bu fikir daha da çok hoşunuza gidiyor. Hatta fikrinizi anlatan gazete reklamları bile gözünüzün önünde canlanıyor.
