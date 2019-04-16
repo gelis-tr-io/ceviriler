@@ -22,18 +22,17 @@ Bu dizin altında, Mozilla'nın başlangıç seviyesindeki bir çok konuyu ele a
 
 ### Sayılar ve tarihler
 
-- [ ] Sayı sabitleri
-- [ ] Number nesnesi
-- [ ] Math nesnesi
-- [ ] Date nesnesi
+- [ ] [Sayı sabitleri](Numbers_and_Dates.md#numbers)
+- [ ] [Number nesnesi](Numbers_and_Dates.md#number-object)
+- [ ] [Math nesnesi](Numbers_and_Dates.md#math-object)
+- [ ] [Date nesnesi](Numbers_and_Dates.md#date-object)
 
 ### Metin formatlama
 
-- [ ] Metin sabitleri
-- [ ] String nesnesi
-- [ ] Şablon metinler
-- [ ] Çoklu dil desteği verme
-- [ ] Düzenli İfadeler
+- [ ] [Metin sabitleri](Text_Formatting.md#strings)
+- [ ] [String nesnesi](Text_Formatting.md#string-objects)
+- [ ] [Şablon metinler](Text_Formatting.md#multi-line-template-literals)
+- [ ] [Çoklu dil desteği](Text_Formatting.md#internationalization)
 
 
 *Not: Diğer başlıklar eklenecektir.*
