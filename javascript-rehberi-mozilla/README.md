@@ -20,4 +20,20 @@ Bu dizin altında, Mozilla'nın başlangıç seviyesindeki bir çok konuyu ele a
 - [ ] [Mantıksal operatörler](Expressions_and_Operators.md#logical-operators)
 - [ ] [Durumsal (üçlü) operatör](Expressions_and_Operators.md#conditional-ternary-operator)
 
+### Sayılar ve tarihler
+
+- [ ] Sayı sabitleri
+- [ ] Number nesnesi
+- [ ] Math nesnesi
+- [ ] Date nesnesi
+
+### Metin formatlama
+
+- [ ] Metin sabitleri
+- [ ] String nesnesi
+- [ ] Şablon metinler
+- [ ] Çoklu dil desteği verme
+- [ ] Düzenli İfadeler
+
+
 *Not: Diğer başlıklar eklenecektir.*
