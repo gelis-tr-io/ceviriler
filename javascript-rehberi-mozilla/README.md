@@ -34,5 +34,8 @@ Bu dizin altında, Mozilla'nın başlangıç seviyesindeki bir çok konuyu ele a
 - [ ] [Şablon metinler](Text_Formatting.md#multi-line-template-literals)
 - [ ] [Çoklu dil desteği](Text_Formatting.md#internationalization)
 
+### Sıralı koleksiyonlar
+- [ ] Diziler
+- [ ] Dizi tipleri
 
 *Not: Diğer başlıklar eklenecektir.*
