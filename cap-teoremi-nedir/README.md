@@ -95,7 +95,7 @@ Karınızla aranızı düzeltene kadar onu hiç aramayarak bölünme toleransın
 
 Şimdi CAP Teoremi’ne tekrar göz atalım. Teorem, dağıtık bir sistem tasarlarsanız tutarlılık, ulaşılabilirlik ve bölünebilme toleransının üçüne de aynı anda sahip olamayacağınızı belirtiyor.
 
-**Tutarlılık:** Kayıt ekleyen müşterilen, ne kadar çabuk geri ararlarsa arasınlar, her zaman her koşulda en güncel kayda ulaşacaklardır.
+**Tutarlılık:** Kayıt ekleyen müşteriler, ne kadar çabuk geri ararlarsa arasınlar, her zaman her koşulda en güncel kayda ulaşacaklardır.
 
 **Uygunluk:** Remembrance Inc! siz ve/veya eşiniz işte olduğu sürece her zaman çağrı kabul etmeye müsait olacaktır.
 
