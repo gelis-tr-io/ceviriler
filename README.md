@@ -10,4 +10,4 @@ Eğer yabancı kaynakları herkesin faydalanması için Türkçe kaynaklara çev
 
 ## Devam Eden Çevriler
 
-- [JavaScript Rehberi](https://github.com/selmansamet/ceviriler/tree/master/javascript-rehberi-mozilla)
+- [JavaScript Rehberi](./javascript-rehberi-mozilla)
