@@ -8,6 +8,3 @@ Eğer yabancı kaynakları herkesin faydalanması için Türkçe kaynaklara çev
 
 - [CAP Teoremi Nedir?](./cap-teoremi-nedir) - [Kaushik Sathupadi](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
 
-## Devam Eden Çevriler
-
-- [JavaScript Rehberi](./javascript-rehberi-mozilla)
