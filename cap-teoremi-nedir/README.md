@@ -4,13 +4,13 @@ CAP teoremi özellikle dağıtık (distributed) sistemlerle uğraşanların aşi
 
 ## Bölüm 1. “Remembrance Inc”, yeni girişiminiz
 
-Dün akşam eşiniz sizin onun doğum gününü hatırlamanız ve ona hediye almanızı takdirle karşılarken aklınızda garip bir fikir belirir. İnsanlar birşeyleri hatırlamakta oldukça başarısızlar. Ve siz de bu konuda çok iyisiniz. O halde neden bu yeteneğinize uygun bir girişim başlatmayasınız? Üzerinde düşündükçe bu fikir daha da çok hoşunuza gidiyor. Hatta fikrinizi anlatan gazete reklamları bile gözünüzün önünde canlanıyor.
+Dün akşam eşiniz sizin onun doğum gününü hatırlamanız ve ona hediye almanızı takdirle karşılarken aklınızda garip bir fikir belirir. İnsanlar bir şeyleri hatırlamakta oldukça başarısızlar. Ve siz de bu konuda çok iyisiniz. O halde neden bu yeteneğinize uygun bir girişim başlatmayasınız? Üzerinde düşündükçe bu fikir daha da çok hoşunuza gidiyor. Hatta fikrinizi anlatan gazete reklamları bile gözünüzün önünde canlanıyor.
 
 > Remembrance Inc! — Asla unutmayın!
 >
 > Bu kadar unutkansınız diye hiç kötü hissettiniz mi? Endişelenmeyin! Çözüm bir telefon kadar yakın.
 >
-> Birşey hatırlamaya ihtiyacınız olduğunda bizi arayın ve hatırlamanız gerekenleri bildirin. Örn. bizi arayıp patronunuzun telefonunu söyleyin ve numarayı hatırlamayı unutun. Unuttuğunuzda bizi tekrar arayın ve biz size telefon numarasını bildireceğiz.
+> Bir şey hatırlamaya ihtiyacınız olduğunda bizi arayın ve hatırlamanız gerekenleri bildirin. Örn. bizi arayıp patronunuzun telefonunu söyleyin ve numarayı hatırlamayı unutun. Unuttuğunuzda bizi tekrar arayın ve biz size telefon numarasını bildireceğiz.
 >
 > Ücretlendirme istek başına 0,1 dolardır.
 
@@ -26,13 +26,13 @@ Bu durumda sıradan bir telefon görüşmesi şöyle gerçekleşecektir:
 
 Bizi komşunuzun doğum gününü hatırlamak istediğiniz her an arayabilirsiniz.
 
-*Müşteri:* Teşekkür ederim
+*Müşteri:* Teşekkür ederim.
 
 *Siz:* Önemli değil. Kredi kartınızdan 0,1 dolar ücretlendirilmiştir.
 
 ## Bölüm 2. Büyümeye başlıyorsunuz
 
-Girişimizi YCombinator tarafından fonlandı. Fikriniz çok basit. Tek gereken şey kağıt kalem ve çok etkili. Çılgınca yayılıyor ve günde yüzlerce çağrı almaya başlıyorsunuz.
+Girişiminiz YCombinator tarafından fonlandı. Fikriniz çok basit. Tek gereken şey kağıt kalem ve çok etkili. Çılgınca yayılıyor ve günde yüzlerce çağrı almaya başlıyorsunuz.
 
 İşte sorun burada başlıyor. Bu yoğunlukta müşterileriniz kuyrukta size ulaşabilmek için her seferinde daha çok beklemek zorunda kalıyorlar. Ayrıca hasta olup işe gidemezseniz bütün günü kaybediyorsunuz. O gün size ulaşamayan memnuniyetsiz bir müşteri kitlesinden bahsetmiyoruz bile. Personeli genişletmek gerektiğine karar verip eşinizi de ofise çağırıyorsunuz.
 
@@ -70,9 +70,9 @@ Rakipleriniz kötü bir hizmeti göz ardı edebilir, fakat siz etmezsiniz. Eşin
 - Böylece ikimiz de aynı kaydı tutuyor olacağız.
 - Bilgilendirmek için çağrı geldiğinde (kayıtlı bilgiye ulaşmak için) birbirimizle konuşmamız gerekmeyecek. Zira ikimizde de kayıtların en güncel hali bulunacak.
 
-Ancak ufak bir sorun var; “güncelleme” isteği geldiğice bu ikinizin de meşgul olmasına ve aynı anda başka bir çağrı alamamanıza sebep olacak. Yani size yeni bir kayıt isteği geldiğinde bunu kaydederken eşiniz de kaydedecek ve yeni bir çağrı kabul edemeyecek. Bu durumun sizin için sakıncası yok çünkü gelen çoğu çağrı kaydedilmiş bilgileri alma amaçlı yapılıyor. (Müşteri bir kez kaydedip pekçok kez soruyor) Ayrıca hiçbir koşulda yanlış bilgi vermemelisiniz.
+Ancak ufak bir sorun var; “güncelleme” isteği geldiğinde bu ikinizin de meşgul olmasına ve aynı anda başka bir çağrı alamamanıza sebep olacak. Yani size yeni bir kayıt isteği geldiğinde bunu kaydederken eşiniz de kaydedecek ve yeni bir çağrı kabul edemeyecek. Bu durumun sizin için sakıncası yok çünkü gelen çoğu çağrı kaydedilmiş bilgileri alma amaçlı yapılıyor. (Müşteri bir kez kaydedip pek çok kez soruyor) Ayrıca hiçbir koşulda yanlış bilgi vermemelisiniz.
 
-Eşiniz bu durumu beğeniyor. Fakat tasarımda bir kusur daha olduğunu belirtiyor. “Ya kimizden birisi o gün işe gelmezse? O gün hiçbir şekilde bilgi kaydedecek durumda olmayacağız. Çünkü diğer kişi yeni kayıtlardan haberdar olamayacak. **Ulaşılabilirlik sorunumuz olacak. Mesela bana senin olmadığın bir gün yeni bir kayıt gelse ben onu kendi defterime yazsam bile kaydı hiçbir zaman tamamlayamayacağım zira senin kayıtların güncellenmemiş kalacak.**”
+Eşiniz bu durumu beğeniyor. Fakat tasarımda bir kusur daha olduğunu belirtiyor. “Ya ikimizden birisi o gün işe gelmezse? O gün hiçbir şekilde bilgi kaydedecek durumda olmayacağız. Çünkü diğer kişi yeni kayıtlardan haberdar olamayacak. **Ulaşılabilirlik sorunumuz olacak. Mesela bana senin olmadığın bir gün yeni bir kayıt gelse ben onu kendi defterime yazsam bile kaydı hiçbir zaman tamamlayamayacağım zira senin kayıtların güncellenmemiş kalacak.**”
 
 ## Bölüm 5. Şimdiye kadarki en iyi çözümü buluyorsunuz
 
@@ -87,7 +87,7 @@ Dahiyane bir fikir! Eşiniz sistemde herhangi bir açık bulamaz. Hadi uygulamay
 
 ## Bölüm 6. Eşiniz sinirleniyor
 
-Bir süre herşey iyi gidiyor. Sistem tutarlı. İşe gelmediğiniz günlerde bile düzgün çalışıyor. Peki ikiniz de işe gelseniz bile biriniz diğerini güncellemediği durumda ne olur? Eşinizi her gün “en iyi fikir saçmalıklarıyla” sabahın köründe uyandırdığınız zamanları hatırladınız mı? Ya karınız aramaları kabul eder fakat bütün gün sizinle konuşmak istemeyecek kadar kızgın olursa? Fikriniz tamamen çöker. Sisteminiz tutarlılık ve uygunluk açısından çalışıyor olsa da bölünebilme toleransı bakımından zayıf kalıyor.
+Bir süre her şey iyi gidiyor. Sistem tutarlı. İşe gelmediğiniz günlerde bile düzgün çalışıyor. Peki ikiniz de işe gelseniz bile biriniz diğerini güncellemediği durumda ne olur? Eşinizi her gün “en iyi fikir saçmalıklarıyla” sabahın köründe uyandırdığınız zamanları hatırladınız mı? Ya karınız aramaları kabul eder fakat bütün gün sizinle konuşmak istemeyecek kadar kızgın olursa? Fikriniz tamamen çöker. Sisteminiz tutarlılık ve uygunluk açısından çalışıyor olsa da bölünebilme toleransı bakımından zayıf kalıyor.
 
 Karınızla aranızı düzeltene kadar onu hiç aramayarak bölünme toleransını devreye sokabilirsiniz. Fakat bu durumda da sisteminiz “müsait” olmayacak.
 
